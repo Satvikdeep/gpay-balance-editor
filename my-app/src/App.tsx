@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { ArrowRight } from 'lucide-react';
 
-const GPayEditor = () => {
+const App = () => {
   const [uploadedImage, setUploadedImage] = useState(null);
   const [amount, setAmount] = useState('');
   const canvasRef = useRef(null);
@@ -123,4 +123,4 @@ const GPayEditor = () => {
   );
 };
 
-export default GPayEditor;
+export default App;
